@@ -1,0 +1,4 @@
+region      = "ap-south-1"
+project     = "ops-demo"
+environment = "dev"
+alarm_email = "you@example.com"
