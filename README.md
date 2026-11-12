@@ -1,5 +1,7 @@
 # aws-terraform-starter
 
+[![Terraform validate](https://github.com/kirandrk712/aws-terraform-starter/actions/workflows/validate.yml/badge.svg)](https://github.com/kirandrk712/aws-terraform-starter/actions/workflows/validate.yml)
+
 A small, production-minded Terraform baseline for AWS: network, a hardened EC2 instance, an encrypted S3 bucket and CloudWatch alerting.
 
 ## What it builds
@@ -39,6 +41,10 @@ terraform destroy
 ## Cost
 
 Runs on a `t3.micro` and small S3 usage. Destroy it when you're done experimenting.
+
+## When things go wrong
+
+See [`SCENARIOS.md`](SCENARIOS.md): CPU alarm, status-check failure, "Terraform wants to replace my instance", drift, and S3 growth - with the commands I'd run.
 
 ## Next steps
 
